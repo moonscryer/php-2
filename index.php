@@ -30,6 +30,10 @@ if (isset($_POST['formSubmit'])) {
     $errors[] = "Please enter your full name.";
   }
 
+  if (preg_match("/[\^<,\"@\/\{\}\(\)\*\$%\?=>:\|;#]+/i", $name)) {
+    $errors[] = "Name cannot contain special characters.";
+  }
+
   if (strlen($email) == 0) {
     $errors[] = "Please enter your email address.";
   }
