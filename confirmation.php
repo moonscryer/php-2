@@ -17,7 +17,7 @@
         <main>
             <h2>Thank you for your preference!</h2>
             <hr />
-            <div class="alert alert-success" role="alert">Your appointment has been scheduled! Please wait for our architect to contact you.</div>
+            <div class="alert alert-success" role="alert">Your appointment has been scheduled!<br />Please wait for our architect to contact you for confirmation.</div>
             <a href="index.php" class="btn btn-primary">Return</a>
         </main>
     </div>
